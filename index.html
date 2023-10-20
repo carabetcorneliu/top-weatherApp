@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <title>TOP - Weather App</title>
+</head>
+
+<body>
+  <div class="content">
+    <div class="firstRow">
+    <p id="condition"></p>
+    <p id="location"></p>
+  </div>
+  <div class="secondRow">
+    <form action="" method="get" id="myForm">
+      <label for="city">City:</label>
+      <input type="text" name="city" id="city" autocomplete="yes" autofocus>
+      <button type="submit">Go</button>
+    </form>
+  </div>
+    <div id="today" class="thirdRow">
+      <div>
+      <p id="temp"></p>
+    </div>
+    <div>
+      <p id="feelsLike"></p>
+      <p id="wind"></p>
+      <p id="humidity"></p>
+    </div>
+    </div>
+  </div>
+</body>
+
+</html>

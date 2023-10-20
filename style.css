@@ -1,0 +1,45 @@
+body {
+  background-image: url('./img/night.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  box-sizing: border-box;
+  height: 95vh;
+}
+
+.content {
+  box-sizing: border-box;
+  width: minmax(30%, 50%);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#condition {
+  padding: 0;
+  margin: 0;
+}
+
+#location {
+  font-size: 3.5rem;
+  padding: 0;
+  margin: 0;
+}
+
+#today {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 20px;
+}
+
+#temp {
+  margin: 0;
+  font-size: 7.5rem;
+}
