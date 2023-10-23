@@ -7,7 +7,10 @@ function handleSubmit(event) {
 };
 
 async function initApp(city) {
+  const loadingContainer = document.getElementById("loading-container");
+  loadingContainer.style.display = "block";
   const weatherData = await getWeather(city)
+  loadingContainer.style.display = "none";
   htmlInsert(weatherData);
 };
 
